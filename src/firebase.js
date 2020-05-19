@@ -4,7 +4,7 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAer6UYb_aado-cw__LBrTU_Lqow77S-sI",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "just-clock-it-47733.firebaseapp.com",
     databaseURL: "https://just-clock-it-47733.firebaseio.com",
     projectId: "just-clock-it-47733",

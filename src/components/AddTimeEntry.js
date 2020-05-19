@@ -27,7 +27,7 @@ const AddTimeEntry = () => {
             <h4>Add Time Entry</h4>
             <div>
                 <label>Title</label>
-                <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+                <input autoFocus type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
             </div>
             <div>
                 <label>Time</label>
